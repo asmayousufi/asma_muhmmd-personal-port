@@ -1,0 +1,47 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+  font-weight: 300;
+  background-color: #eee;
+  color: #333;
+}
+nav {
+  position: fixed;
+  background: rgb(246, 168, 24);
+  color: #eee;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+nav ul {
+  display: flex;
+  margin-right: 2rem;
+}
+
+nav ul li {
+  display: block;
+  padding-right: 2rem;
+  list-style: none;
+}
+nav ul li :hover {
+  background-color: #333;
+  color: #eee;
+}
+
+#welcome-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vw;
+  flex-direction: column;
+  background-color: #333;
+  color: #eee;
+}
+
+#welcome-section h1,
+p {
+  text-align: center;
+}
